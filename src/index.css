@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-space: "Space Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply font-space text-white bg-black overflow-x-hidden;
+  }
+}
